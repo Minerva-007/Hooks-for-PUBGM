@@ -1,0 +1,6 @@
+; dlltool --base-file C:\Users\mueez\AppData\Local\Temp\cca04664.base --output-exp MIF.exp --dllname MIF.dll --output-def libMIF.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\mueez\AppData\Local\Temp\cca04664.def --output-lib libMIF.a
+EXPORTS
+	HelloWorld @ 1
+	KeyboardProc @ 2
+	MouseProc @ 3
+	GetHook @ 4
